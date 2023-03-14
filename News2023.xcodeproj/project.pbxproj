@@ -13,6 +13,9 @@
 		22C19B1529831EA500E12CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C19B1329831EA500E12CAD /* Main.storyboard */; };
 		22C19B1729831EA800E12CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22C19B1629831EA800E12CAD /* Assets.xcassets */; };
 		22C19B1A29831EA800E12CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22C19B1829831EA800E12CAD /* LaunchScreen.storyboard */; };
+		22C19B222983215300E12CAD /* ApiCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C19B212983215300E12CAD /* ApiCaller.swift */; };
+		22C19B242983EC8500E12CAD /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C19B232983EC8500E12CAD /* NewsTableViewCell.swift */; };
+		22D3412429902ADE00EA6A2F /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D3412329902ADE00EA6A2F /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		22C19B1629831EA800E12CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22C19B1929831EA800E12CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22C19B1B29831EA800E12CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22C19B212983215300E12CAD /* ApiCaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCaller.swift; sourceTree = "<group>"; };
+		22C19B232983EC8500E12CAD /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		22D3412329902ADE00EA6A2F /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +64,10 @@
 			children = (
 				22C19B0D29831EA500E12CAD /* AppDelegate.swift */,
 				22C19B0F29831EA500E12CAD /* SceneDelegate.swift */,
+				22C19B212983215300E12CAD /* ApiCaller.swift */,
 				22C19B1129831EA500E12CAD /* ViewController.swift */,
+				22C19B232983EC8500E12CAD /* NewsTableViewCell.swift */,
+				22D3412329902ADE00EA6A2F /* Models.swift */,
 				22C19B1329831EA500E12CAD /* Main.storyboard */,
 				22C19B1629831EA800E12CAD /* Assets.xcassets */,
 				22C19B1829831EA800E12CAD /* LaunchScreen.storyboard */,
@@ -140,7 +149,10 @@
 			files = (
 				22C19B1229831EA500E12CAD /* ViewController.swift in Sources */,
 				22C19B0E29831EA500E12CAD /* AppDelegate.swift in Sources */,
+				22C19B242983EC8500E12CAD /* NewsTableViewCell.swift in Sources */,
+				22D3412429902ADE00EA6A2F /* Models.swift in Sources */,
 				22C19B1029831EA500E12CAD /* SceneDelegate.swift in Sources */,
+				22C19B222983215300E12CAD /* ApiCaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
